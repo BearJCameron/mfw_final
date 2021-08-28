@@ -1,28 +1,22 @@
-/* *{
+*{
     margin: 0;
 }
-
-
-.my_title{
-    text-align: center;
-}
-
-.my_carousel{
-    background-color: blue;
-    color: white;
-    margin: 1rem;
-    text-align: center;
-}
-
-.my_content{
-    background-color: green;
-    color: white;
-    margin: 1rem;
-    text-align: center;
-} */
 
 #my_footer{
     bottom: 0;
     position: relative;
 }
 
+.d-block{
+    height: 300px;
+    width: 300px;
+}
+
+.col{
+    -webkit-transition: box-shadow linear 1s;
+    transition: box-shadow linear 1s;
+}
+
+.col:focus{
+    box-shadow: 0 0 20px #51ff0d;
+}
