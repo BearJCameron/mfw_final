@@ -8,15 +8,15 @@
 }
 
 .d-block{
-    height: 300px;
-    width: 300px;
+    height: 60vh;
+    width: 60vh;
 }
 
-.col{
+/* .col{
     -webkit-transition: box-shadow linear 1s;
     transition: box-shadow linear 1s;
 }
 
 .col:focus{
     box-shadow: 0 0 20px #51ff0d;
-}
+} */
