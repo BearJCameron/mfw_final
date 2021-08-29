@@ -47,8 +47,24 @@
         <div class="container">
           <div class="row">
             <div class="col-6 d-flex justify-content-center">
-              content  
+              <div class="accordion" id="accord01">
+                <div class="card">
+                  <div class="card-header" id="heading01">
+                    <h2 class="mb-0">
+                      <button class="btn btn-link btn-block text-left" type="button" data-toggle="collapse" data-target="#collapse01" aria-expanded="true" aria-controls="collapse01">
+                        Collapsible Item 
+                      </button>
+                    </h2>
+                  </div>
+                  <div id="collapse01" class="collapse show" aria-labelledby="heading01" data-parent="#accord01">
+                    <div class="card-body">
+                      Text will go right here about stuff that I will think of later when my brain isn't melted.
+                    </div>
+                  </div>
+                </div>
+              </div>  
             </div>
+            
             <div class="col-6 d-flex justify-content-center">
               content 
             </div>
