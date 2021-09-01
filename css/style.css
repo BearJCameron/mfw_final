@@ -1,6 +1,4 @@
-/* *{
-    margin: 0;
-} */
+
 
 #my_footer{
     bottom: 0;
@@ -12,3 +10,12 @@
     width: 60vh;
 }
 
+#my_button:hover{
+    border: 2px darkred;
+    box-shadow: 5px 5px darkred;
+}
+
+#my_input:hover{
+    border: 2px darkred;
+    box-shadow: 5px 5px darkred;
+}
