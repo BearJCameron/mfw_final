@@ -2,13 +2,9 @@
     margin: 0;
 } */
 
-#my_footer_home{
-    bottom:0;
-    position: absolute;
-}
 #my_footer{
     bottom: 0;
-    position: relative;
+    position: absolute;
 }
 
 .d-block{
@@ -16,6 +12,3 @@
     width: 60vh;
 }
 
-.form_container{
-    background-color: lightblue;
-}
