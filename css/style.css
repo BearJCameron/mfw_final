@@ -3,10 +3,10 @@
 }   
 
 
-/* #my_footer{
+#my_footer{
     bottom: 0;
     position: fixed;
-} */
+}
 
 .d-block{
     height: 60vh;
