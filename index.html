@@ -9,7 +9,7 @@
     <title>Home</title>
   </head>
   <body class="bg-secondary">
-
+<div class="min-vh-100">
     <!-- Navigation Bar Start -->
       <div class="container-fluid">
         <div class="row">
@@ -29,11 +29,11 @@
 
     <!-- Start jumbotron container -->
       <div class="container-fluid d-flex justify-content-center p-2 mt-5">
-        <div class="container-fluid d-flex flex-column justify-content-center " style="background-image: url(img/Oct06.jpg); height: 25rem; background-repeat: no-repeat; background-size: cover;">
-          <h1 class="d-flex justify-content-center fw-bold">
-            Welcome Content
+        <div class="container-fluid d-flex flex-column justify-content-center " style="background-image: url(/img/pro_pic.jpg); height: 30rem; background-repeat: repeat; background-size: 40rem;">
+          <h1 class="d-flex justify-content-center fw-bold text-white">
+            Hellooooo!
           </h1>
-          <h5 class="d-flex justify-content-center">Secondary header providing additional information</h5>
+          <h5 class="d-flex justify-content-center text-wrap text-center text-white">Thank you for visiting my Mobile Friendly final project using bootstrap. You can view my Websites For Beginners Final Project which I did using only HTML and CSS by clicking the link below:</h5>
           <div class="d-flex justify-content-center">
             <button type="button" class="btn btn-dark mt-4 text-uppercase">
               <a href="https://bearjcameron.github.io/Final_Project/" class="text-decoration-none text-white" target="_blank">
@@ -51,25 +51,31 @@
       <div class="accordion col-6" id="my_accordion">
         <div class="accordion-item">
           <h2 class="accordion-header" id="headingOne">
-            <button class="accordion-button bg-dark text-white" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-              Accordion Item #1
+            <button class="accordion-button bg-dark text-white fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+              Fun with Accordion and Collapse
             </button>
           </h2>
-          <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#my_accordion">
+          <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#my_accordion">
             <div class="accordion-body bg-secondary text-white">
-              <strong>This is the first item's accordion body.</strong>
+              I wanted to play with accordion and collapse functions so I created this content area to present the functionality of it.
             </div>
           </div>
         </div>
         <div class="accordion-item">
           <h2 class="accordion-header" id="headingTwo">
-            <button class="accordion-button collapsed bg-dark text-white" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-              Accordion Item #2
+            <button class="accordion-button collapsed bg-dark text-white fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+              Favorite Qoute from Paradise Lost
             </button>
           </h2>
           <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#my_accordion">
             <div class="accordion-body bg-secondary text-white">
-              <strong>This is the second item's accordion body.</strong> 
+              "...Hence I will excite their minds<br> 
+              With more desire to know, and to reject<br> 
+              Envious commands, invented with design<br>
+              To keep them low, whom knowledge might exalt<br> 
+              Equal with Gods: aspiring to be such,<br> 
+              They taste and die: What likelier can ensue..."<br>
+              <strong>-The Serpent</strong>
             </div>
           </div>
         </div>
@@ -77,25 +83,27 @@
       <div class="accordion col-6" id="my_accordion2">
         <div class="accordion-item">
           <h2 class="accordion-header" id="headingThree">
-            <button class="accordion-button bg-dark text-white" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="true" aria-controls="collapseThree">
-              Accordion Item #3
+            <button class="accordion-button bg-dark text-white fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="true" aria-controls="collapseThree">
+              Fun links to check out
             </button>
           </h2>
-          <div id="collapseThree" class="accordion-collapse collapse show" aria-labelledby="headingThree" data-bs-parent="#my_accordion2">
+          <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#my_accordion2">
             <div class="accordion-body bg-secondary text-white">
-              <strong>This is the third item's accordion body.</strong>
+              <a href="http://papertoilet.com/" target="_blank" style="text-decoration: none; color: white;">Waste some Toilet Paper</a><br>
+              <a href="https://thisissand.com/" target="_blank" style="text-decoration: none; color: white;">Make Digital Sand Art</a><br>
+              <a href="http://weavesilk.com/" target="_blank" style="text-decoration: none; color: white;">More Fun Art</a><br>
             </div>
           </div>
         </div>
         <div class="accordion-item">
           <h2 class="accordion-header" id="headingFour">
-            <button class="accordion-button collapsed bg-dark text-white" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
-              Accordion Item #4
+            <button class="accordion-button collapsed bg-dark text-white fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+              The Captain
             </button>
           </h2>
           <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#my_accordion2">
             <div class="accordion-body bg-secondary text-white">
-              <strong>This is the fourth item's accordion body.</strong>
+              <img class="the_captain" src="img/The_Captain.jpg" alt="">
             </div>
           </div>
         </div>
@@ -103,21 +111,22 @@
     </div>
   </div>
     <!-- End content container -->
-
     <!-- Start footer container -->
         <div id="my_footer" class="container-fluid">
           <div class="row bg-dark text-white">
             <footer class="col-6 fs-1">
-              <i class="fab fa-facebook-square"></i>
-              <i class="fab fa-instagram-square"></i>
-              <i class="fab fa-github-square"></i>
-              <i class="fab fa-tiktok"></i>
+              <a href="https://www.facebook.com/profile.php?id=793865105" target="_blank" style="color: white;"><i class="fab fa-facebook-square"></i></a>
+              <a href="https://www.instagram.com/bearjcameron/" target="_blank" style="color: white;"><i class="fab fa-instagram-square"></i></a>
+              <a href="https://github.com/BearJCameron" target="_blank" style="color: white;"><i class="fab fa-github-square"></i></a>
+              <a href="https://www.tiktok.com/@bearjcameron?is_copy_url=1&is_from_webapp=v1&lang=en" target="_blank" style="color: white;"><i class="fab fa-tiktok"></i></a>
             </footer>
             <footer class="col-6 d-flex align-items-center justify-content-end">
-              copyright
+              ©2021 Bear J. Cameron
             </footer>
           </div>
         </div>
+
+</div>
     <!-- End footer container -->
     <script src="https://kit.fontawesome.com/25eef12288.js" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
