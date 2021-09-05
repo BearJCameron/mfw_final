@@ -1,4 +1,6 @@
-   
+*{
+    margin: 0;
+}   
 
 #my_footer{
     bottom: 0;
