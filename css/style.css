@@ -1,4 +1,4 @@
-*{
+ew*{
     margin: 0;
 }   
 
@@ -57,4 +57,8 @@
     height: 100px;
     width: 100px;
     filter: invert(100%);
+}
+
+.accordion-button::after{
+    visibility: hidden;
 }
