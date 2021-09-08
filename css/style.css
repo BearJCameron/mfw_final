@@ -38,3 +38,9 @@
     height: 9rem;
     width: 10rem;
 }
+
+.logo{
+    height: 100px;
+    width: 100px;
+    filter: invert(100%);
+}
