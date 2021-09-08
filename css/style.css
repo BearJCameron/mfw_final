@@ -2,6 +2,12 @@
     margin: 0;
 }   
 
+.my_font01{
+    font-family: 'Oleo Script Swash Caps', cursive;}
+
+.my_font02{
+    font-family: 'Irish Grover', cursive;
+}
 
 #my_footer{
     bottom: 0;
