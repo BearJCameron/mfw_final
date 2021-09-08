@@ -9,9 +9,17 @@
     font-family: 'Irish Grover', cursive;
 }
 
+.my_accordion{
+    margin-bottom: 10rem;
+}
+
 #my_footer{
     bottom: 0;
-    position: fixed;
+    position: relative;
+}
+
+.my_contact{
+    margin-bottom: 11rem;
 }
 
 .d-block{
